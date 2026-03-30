@@ -1,126 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.2">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full House Building Construction</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; font-family:'Inter', sans-serif; color:#111; background:#fff; }
+    header { position:fixed; width:100%; top:0; background:rgba(255,255,255,0.9); backdrop-filter:blur(10px); padding:20px 40px; display:flex; justify-content:space-between; }
+    nav a { margin-left:20px; text-decoration:none; color:#333; font-weight:500; }
+    section { padding:100px 40px; max-width:1000px; margin:auto; }
+    .hero { height:100vh; display:flex; flex-direction:column; justify-content:center; }
+    h1 { font-size:48px; font-weight:600; }
+    h2 { font-size:28px; margin-bottom:20px; }
+    p { line-height:1.6; color:#555; }
+    .services, .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+    .card { padding:20px; border:1px solid #eee; border-radius:12px; }
+    footer { text-align:center; padding:40px; color:#777; font-size:14px; }
   </style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1">&lt;title&gt;Full House Building Construction&lt;/title&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;style&gt;</p>
-<p class="p1">body {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-family: Arial, sans-serif;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background: #111;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>color: #fff;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">header {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background: rgba(0,0,0,0.8);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 20px 60px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>position: fixed;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>width: 100%;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">header h1 {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-size: 20px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.hero {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>height: 100vh;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e') center/cover;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>display: flex;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>align-items: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>justify-content: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.hero h2 {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-size: 48px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.section {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 80px 60px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.services {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>display: grid;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>grid-template-columns: repeat(auto-fit, minmax(200px,1fr));</p>
-<p class="p1"><span class="Apple-converted-space">    </span>gap: 20px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.card {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background: #1c1c1c;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>border-radius: 10px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">footer {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background: #000;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 40px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
-<p class="p1">}</p>
-<p class="p1">&lt;/style&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Full House Building Construction PTE LTD&lt;/h1&gt;</p>
-<p class="p1">&lt;/header&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section class="hero"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;Building Excellence&lt;br&gt;Delivering Trust&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;Professional Construction Services in Singapore&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section class="section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;About Us&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>Full House Building Construction PTE LTD is a Singapore-based construction company</p>
-<p class="p1"><span class="Apple-converted-space">    </span>providing reliable and high-quality building solutions. We specialize in delivering</p>
-<p class="p1"><span class="Apple-converted-space">    </span>projects efficiently with strong project management and engineering excellence.</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/p&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section class="section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Our Services&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="services"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Building Construction&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Interior Renovation&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Commercial Projects&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="card"&gt;Project Management&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;section class="section"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;h2&gt;Contact Us&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;📍 Blk 5040 Ang Mo Kio Industrial Park 2 #01-445/447 Singapore 569543&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;☎ +65 6483 4440&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;🌐 www.fullhse.com.sg&lt;/p&gt;</p>
-<p class="p1">&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;© 2026 Full House Building Construction PTE LTD&lt;/p&gt;</p>
-<p class="p1">&lt;/footer&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+
+<header>
+  <div><strong>Full House</strong></div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Building Excellence Since 1996</h1>
+  <p>Full House Building Construction PTE LTD delivers modern, reliable, and high-quality construction solutions across Singapore.</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Founded in 1996, Full House Building Construction PTE LTD specializes in design, construction, renovation, and maintenance. We bring decades of experience delivering trusted building solutions with a focus on quality and efficiency.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">Design & Construction</div>
+    <div class="card">Renovation & Decoration</div>
+    <div class="card">Building Maintenance</div>
+    <div class="card">Pipeline Installation & Repair</div>
+    <div class="card">High-pressure Cleaning</div>
+    <div class="card">Water Tank Cleaning</div>
+    <div class="card">Waterproofing Projects</div>
+    <div class="card">24-hour Emergency Services</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Ongoing Projects</h2>
+  <div class="projects">
+    <div class="card">MOE Toilet Renovation Project</div>
+    <div class="card">People's Association Building Maintenance Contract</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p><strong>Address:</strong> Blk 5040 Ang Mo Kio Industrial Park 2 #01-445/447 Singapore 569543</p>
+  <p><strong>Phone:</strong> +65 6483 4440</p>
+  <p><strong>Website:</strong> www.fullhse.com.sg</p>
+</section>
+
+<footer>
+  © 2026 Full House Building Construction PTE LTD
+</footer>
+
 </body>
 </html>
